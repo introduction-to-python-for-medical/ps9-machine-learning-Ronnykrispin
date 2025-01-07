@@ -1,4 +1,4 @@
 path: "model.joblib"
 features:
-  - PPE
-  - DFA
+  - MDVP:Fo(Hz)
+  - MDVP:Jitter(%)
