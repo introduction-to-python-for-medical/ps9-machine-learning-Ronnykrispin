@@ -1,2 +1,4 @@
 path: "model.joblib"
-features: ['PPE' , 'DFA']
+features:
+  - PPE
+  - DFA
