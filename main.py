@@ -31,5 +31,5 @@ y_pred = model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Model accuracy: {accuracy}")
 
-# 7. שמירת המודל בתיקייה
-dump(model, "Ronny_model.joblib/Ronny_model.joblib")
+# 7. שמירת המודל כקובץ
+dump(model, "Ronny_model.joblib")
