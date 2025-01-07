@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score
 from joblib import dump
-print("hello")
+
 # קריאת הנתונים
 df = pd.read_csv("parkinsons.csv")
 df = df.dropna()
