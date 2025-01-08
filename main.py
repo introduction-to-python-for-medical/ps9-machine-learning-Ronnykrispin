@@ -3,7 +3,7 @@ df = pd.read_csv('parkinsons.csv')
 df=df.dropna()
 df.head()
 
-features = ["PPE", "DFA"]
+features = ['PPE', 'DFA']
 target = 'status'
 x = df[features]
 y = df[target]
@@ -26,4 +26,4 @@ accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy}")
 
 import joblib
-joblib.dump(model, 'my_modell.joblib')
+joblib.dump(model, 'my_modelll.joblib')
