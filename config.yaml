@@ -1,4 +1,2 @@
 path: "Ronny_model.joblib"
-features:
-  - PPE
-  - DFA
+features:[ 'PPE', 'DFA']
