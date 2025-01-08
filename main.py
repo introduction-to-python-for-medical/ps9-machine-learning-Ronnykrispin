@@ -16,5 +16,5 @@ y_pred = knn.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy}")
 import joblib
-joblib.dump(knn, "Ronny_model.joblib")
+joblib.dump(knn, "my_model.joblib")
 print("Model saved successfully!")
